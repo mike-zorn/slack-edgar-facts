@@ -3,3 +3,7 @@ deployment:
     branch: master
     heroku:
       appname: slack-edgar-facts
+
+machine:
+  node:
+    version: iojs-2
