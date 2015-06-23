@@ -2,4 +2,4 @@ deployment:
   production:
     branch: master
     heroku:
-      app-name: slack-edgar-facts
+      appname: slack-edgar-facts
