@@ -37,6 +37,7 @@ export default createServer((req, res) => {
     slackReq.write(JSON.stringify({ channel: channel, text: edgarFacts() }))
     slackReq.end()
   }))
+  req.pipe(process.stdout)
 
   req.on('error', errorHandler)
 })
