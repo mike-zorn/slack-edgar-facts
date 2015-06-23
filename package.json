@@ -6,7 +6,7 @@
   "engines": {
     "iojs": "^2",
     "npm": "^2"
-  }
+  },
   "scripts": {
     "start": "babel-node index.js",
     "test": "standard"
@@ -29,7 +29,9 @@
   "homepage": "https://github.com/apechimp/slack-edgar-facts#readme",
   "dependencies": {
     "babel": "^5.6.4",
-    "edgar-facts": "^1.0.3"
+    "concat-stream": "^1.5.0",
+    "edgar-facts": "^1.0.3",
+    "xtend": "^4.0.0"
   },
   "devDependencies": {
     "standard": "^4.3.2"
