@@ -14,9 +14,8 @@ Installation
 Usage
 -----
 
-1. Export a json hash of slack slash command tokens to slack incoming webhook
-   urls to `TOKENS_URLS`, e.g.,
-   ```bash
-   export TOKENS_URLS='{"gIkuvaNzQIHg97ATvDxqgjtO":"https://hooks.slack.com/services/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"}'
-   ```
+1. Export a json hash of slack slash command tokens to slack incoming webhook urls to `TOKENS_URLS`, e.g.,
+```bash
+export TOKENS_URLS='{"gIkuvaNzQIHg97ATvDxqgjtO":"https://hooks.slack.com/services/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"}'
+```
 2. `npm start`
