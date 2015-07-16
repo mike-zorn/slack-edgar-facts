@@ -19,10 +19,7 @@ export default createServer((req, res) => {
   const errorHandler = handleError(res)
 
   req.pipe(concat(body => {
-    const strbody = body.toString()
-    console.log(strbody)
-    const parsed = queryStringParse(strbody)
-    console.dir(parsed)
+    const parsed = queryStringParse(body.toString())
     const token = parsed.token
     const channel = `#${parsed.channel_name}`
     const url = tokensToUrl[token]
