@@ -1,5 +1,7 @@
 slack-edgar-facts
 =================
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/apechimp/slack-edgar-facts.svg)](https://greenkeeper.io/)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 [![Circle CI](https://circleci.com/gh/apechimp/slack-edgar-facts.svg?style=svg)](https://circleci.com/gh/apechimp/slack-edgar-facts)
 
