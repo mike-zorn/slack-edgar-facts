@@ -4,7 +4,7 @@
   "description": "Slack Slash command for facts about @apechimp's :dog:, Edgar",
   "main": "index.js",
   "engines": {
-    "iojs": "^2",
+    "node": "^12",
     "npm": "^2"
   },
   "scripts": {
